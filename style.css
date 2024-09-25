@@ -11,6 +11,13 @@ body {
   font-family: "Space Mono", monospace;
   overflow-x: hidden;
 }
+
+/* Default text styles*/
+h1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
 /* Button styling */
 button {
   padding: 10px 15px;
@@ -47,11 +54,6 @@ header {
   filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 1px 14px);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-}
-
-h1 {
-  font-size: 4rem;
-  font-family: "Roboto", sans-serif;
 }
 
 nav {
