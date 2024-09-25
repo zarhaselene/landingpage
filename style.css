@@ -65,7 +65,8 @@ nav {
 
 .logo {
   flex: 1;
-  padding: 40px 0;
+  padding: 20px 0;
+  filter: invert(1);
 }
 
 nav ul {
@@ -75,10 +76,9 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0 20px;
+  padding: 0 25px;
   list-style-type: none;
   cursor: pointer;
-  padding: 10px;
 }
 
 nav ul li:hover {
