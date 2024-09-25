@@ -1,0 +1,55 @@
+/* Global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation styling */
+header {
+  position: relative;
+}
+header::after {
+  /* Extending the border, ignoring body padding */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  transform: translateX(-50px);
+  height: 1px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  padding: 40px 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+nav ul li {
+  padding: 0 20px;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
