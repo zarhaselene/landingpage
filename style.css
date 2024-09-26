@@ -35,31 +35,57 @@ h2 {
 h3 {
   font-size: 2rem;
 }
+h4 {
+  font-size: 1.3rem;
+}
 
-/* Button styling */
+/* General Button Styling */
 button {
-  padding: 10px 15px;
+  padding: 10px 20px;
   border: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 40px;
   font-size: 1.1em;
   cursor: pointer;
   font-family: "Space Mono", monospace;
 }
-.filled {
-  background-color: white;
+button:hover {
+  transition: all 0.3s ease-in;
 }
+/* Filled Button */
+.filled {
+  background-color: #2b2f2f;
+  color: #fff;
+}
+
+.filled:hover {
+  background-color: transparent;
+  border: 1px solid #2b2f2f;
+  color: #2b2f2f;
+}
+
+/* Outline Button */
 .outline {
   background-color: transparent;
-  border: none;
-  border: 1px solid white;
+  border: 1px solid #2b2f2f;
+  color: #2b2f2f;
+}
+
+.outline:hover {
+  background-color: #2b2f2f;
+  color: #fff;
+}
+
+/* Blue Button */
+.blue {
+  background-color: #3ad2e1;
+  border: 1px solid #3ad2e1;
   color: white;
 }
 
-button:hover {
-  box-shadow: 0px 3px 2px rgba(43, 43, 43, 0.208);
-  transform: translateY(5px);
-  transition: all 0.2s ease-in;
+.blue:hover {
+  background-color: transparent;
+  border-color: #3ad2e1;
+  color: #3ad2e1;
 }
 
 /* Navigation styling */
@@ -69,8 +95,8 @@ header {
   width: 100%;
   background-color: #c4c4c433;
   filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 1px 14px);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
 nav {
@@ -106,9 +132,9 @@ nav ul li:hover {
 /* Hero section */
 .hero {
   position: relative;
-  height: 850px;
+  height: 800px;
   width: 100vw;
-  background: url("/images/hero-homepage.webp") center/cover no-repeat;
+  background: url("/images/hero-homepage.webp") center top/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +185,10 @@ nav ul li:hover {
 }
 
 .text p {
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
+}
+.features .buttons button {
+  margin-right: 50px;
 }
 /* Testimonials styling */
 .testimonials {
