@@ -160,3 +160,23 @@ nav ul li:hover {
 .text p {
   margin-top: 20px;
 }
+/* Testimonials styling */
+.testimonials {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.box {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 200px;
+  margin: 0 50px;
+}
