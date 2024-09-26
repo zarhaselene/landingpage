@@ -7,12 +7,11 @@
 
 body {
   position: relative;
-  padding: 0 80px;
   font-family: "Space Mono", monospace;
   overflow-x: hidden;
 }
 section {
-  margin-bottom: 120px;
+  padding: 100px 80px;
 }
 
 /* Default text styles*/
@@ -58,8 +57,7 @@ header {
   position: fixed;
   z-index: 9999;
   width: 100%;
-  margin-left: calc(-80px);
-  background-color: #00000033;
+  background-color: #c4c4c433;
   filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 1px 14px);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
@@ -74,7 +72,7 @@ nav {
 
 .logo {
   flex: 1;
-  padding: 20px 0;
+  padding: 10px 0;
   filter: invert(1);
 }
 
@@ -98,23 +96,22 @@ nav ul li:hover {
 /* Hero section */
 .hero {
   position: relative;
-  height: 800px;
+  height: 850px;
   width: 100vw;
-  background: url("/images/hero-homepage.jpg") center/cover no-repeat;
-  margin-left: calc(-80px);
+  background: url("/images/hero-homepage.webp") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
+.hero .container {
   width: 800px;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 0px black;
 }
 
-.container p {
+.hero .container p {
   padding: 10px 0;
   font-size: 1.5rem;
 }
@@ -126,11 +123,12 @@ nav ul li:hover {
 .features {
   display: flex;
   justify-content: center;
+  background-color: #f8f9f9;
 }
 
 .image {
-  width: 600px;
-  height: 600px;
+  max-width: 600px;
+  max-width: 600px;
   border-radius: 30px;
   overflow: hidden;
 }
