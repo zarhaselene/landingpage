@@ -15,9 +15,19 @@ section {
 }
 
 /* Default text styles*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "bebas-neue", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin: 10px 0;
+}
 h1 {
   font-size: 4rem;
-  font-family: "Roboto", sans-serif;
 }
 h2 {
   font-size: 3rem;
