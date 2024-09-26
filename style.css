@@ -242,4 +242,13 @@ nav ul li:hover {
   height: 100%;
   object-fit: contain;
 }
-
+.cta {
+  background-color: #f8f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta button {
+  margin-top: 30px;
+}
