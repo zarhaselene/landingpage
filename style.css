@@ -99,9 +99,9 @@ button:hover {
 }
 
 .blue:hover {
-  background-color: transparent;
+  background-color: #66cbd4;
   border-color: #3ad2e1;
-  color: #3ad2e1;
+  color: #306165;
 }
 
 /* Navigation styling */
@@ -143,7 +143,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: red;
+  color: #3ad2e1;
   transition: all 0.3s ease;
 }
 
@@ -152,7 +152,6 @@ nav ul li:hover {
   position: relative;
   height: 800px;
   width: 100vw;
-  background: url("/images/hero-homepage.webp") center top/cover no-repeat;
   background: url("/images/hero-homepage.webp") center top/cover no-repeat;
   display: flex;
   justify-content: center;
@@ -242,6 +241,7 @@ nav ul li:hover {
   height: 100%;
   object-fit: contain;
 }
+/* CTA styling */
 .cta {
   background-color: #f8f9f9;
   display: flex;
@@ -251,4 +251,38 @@ nav ul li:hover {
 }
 .cta button {
   margin-top: 30px;
+}
+/* Footer styling */
+footer {
+  background-color: #3ad2e1;
+  color: #f8f9f9;
+  padding: 70px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+  cursor: pointer;
+}
+footer li:hover {
+  color: #2b2f2f;
+}
+footer a {
+  color: #f8f9f9;
+}
+footer a:hover {
+  color: #2b2f2f;
+}
+
+footer .address {
+  margin-top: 20px;
+}
+
+.footer-logo {
+  filter: invert(1);
+  width: 200px;
+}
+.footer-logo img {
+  width: 100%;
 }
